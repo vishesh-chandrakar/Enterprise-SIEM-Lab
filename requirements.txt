@@ -1,0 +1,3 @@
+# Enterprise SIEM Lab lightweight prototype
+# No third-party Python packages are required.
+# Uses only Python standard-library modules.

@@ -1,0 +1,9 @@
+# Synthetic training events only; 203.0.113.0/24 is reserved for documentation.
+timestamp=2026-10-22T10:00:00Z host=LAB-PC-01 event=login_success user=student src_ip=192.0.2.20
+timestamp=2026-10-22T10:01:00Z host=LAB-PC-01 event=login_failed user=student src_ip=203.0.113.10
+timestamp=2026-10-22T10:01:10Z host=LAB-PC-01 event=login_failed user=student src_ip=203.0.113.10
+timestamp=2026-10-22T10:01:20Z host=LAB-PC-01 event=login_failed user=admin src_ip=203.0.113.10
+timestamp=2026-10-22T10:01:30Z host=LAB-SERVER-01 event=login_failed user=admin src_ip=203.0.113.10
+timestamp=2026-10-22T10:02:00Z host=LAB-PC-01 event=login_success user=student src_ip=192.0.2.20
+timestamp=2026-10-22T10:03:00Z host=LAB-PC-02 event=service_started service=training-demo
+not-a-valid-event
